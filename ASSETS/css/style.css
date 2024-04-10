@@ -1,0 +1,113 @@
+body{
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Raleway, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+header{
+    padding: 20px;
+}
+
+    h1{
+    font-size: 50px;
+    font-weight: medium;
+    }
+
+    h2{
+    font-size: 30px;
+    font-weight: medium;
+    }
+
+    p{
+    font-size: 18px;
+    font-weight: light;
+     }
+
+    #hero-img{
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+.desc-section{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   text-align: right;
+}
+
+text{
+    width:35%;
+    padding: 20px;
+    max-height: auto;
+    align-items: stretch;
+  
+}
+.desc-img{
+    width:35%;
+    padding: 20px;
+    max-height: auto;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+/* sección de características */
+.icon-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+   }
+
+object{
+    padding: 10px;
+    justify-content: stretch;
+    margin: auto;
+    text-align: center;
+    
+}
+
+#carac-section{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #1E1A13;
+}
+/* sección de imagenes */
+
+.pic-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pic-img{
+    width:20%;
+    padding: 20px;
+    max-height: auto;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+footer{
+    background-color: #1E1A13;
+    text-align: center;
+    align-items: center;
+    padding: 39px;
+    color: #FFFFFF;
+    
+}
+a{
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
